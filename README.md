@@ -4,10 +4,10 @@ Dynamic web component to show online users with icon, title and colour customisa
 
 ## Attributes:
 
- 
- * color will set the accent colour
- * Count should be a positive integer in order for the counter animation to fire
- * icon should be the reference to an SVG file. In this code, located under src/img/icons. _(can be changed on line 72)_
+ * **name** will set the title of the component
+ * **color** will set the accent colour
+ * **count** should be a positive integer in order for the counter animation to fire
+ * **icon** should be the reference to an SVG file. In this code, located under src/img/icons. _(can be changed on line 72)_
 
 ## Usage
 
@@ -17,7 +17,8 @@ include the file to the head of your the document:
 
 Add the following HTML where you would like the component to render:
 
-<code> <online-indicator name="Alumnos Conectad@s" color="#F00" count="-" id="connect_counter_alum" icon="alumno"></online-indicator> </code>
+
+<code> \<online-indicator id="alumnocounter" name="Alumnos Conectados" color="\#F00" count="-" icon="alumno" > \</online-indicator> </code>
 
 
 ## Update counter
